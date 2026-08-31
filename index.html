@@ -354,6 +354,66 @@
             border-top: 1px solid var(--pink-accent);
         }
 
+        /* Contact Section */
+        .contact-section {
+            background: linear-gradient(180deg, var(--light-pink) 0%, var(--pink-soft) 100%);
+            padding: 6rem 2rem;
+            text-align: center;
+        }
+
+        .contact-content {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact-content h3 {
+            font-size: 1.8rem;
+            font-weight: 400;
+            color: var(--text-dark);
+        }
+
+        .contact-content arabic {
+            font-family: 'Tajawal', sans-serif;
+            display: block;
+            font-size: 1.4rem;
+            margin-bottom: 2rem;
+            direction: rtl;
+        }
+
+        .contact-text {
+            font-size: 1.05rem;
+            color: var(--text-medium);
+            line-height: 1.9;
+            margin-bottom: 2rem;
+        }
+
+        .contact-text arabic {
+            font-family: 'Tajawal', sans-serif;
+            display: block;
+            font-size: 1rem;
+            margin-top: 0.75rem;
+            direction: rtl;
+        }
+
+        .contact-email {
+            display: inline-block;
+            font-family: 'Tajawal', sans-serif;
+            font-size: 1rem;
+            letter-spacing: 0.05em;
+            color: var(--text-dark);
+            text-decoration: none;
+            padding: 0.9rem 2.2rem;
+            border: 1px solid var(--pink-strong);
+            border-radius: 30px;
+            background: var(--white);
+            transition: all 0.3s ease;
+        }
+
+        .contact-email:hover {
+            background: var(--pink-strong);
+            color: var(--white);
+        }
+
         /* Footer */
         footer {
             padding: 3rem 2rem;
@@ -427,6 +487,19 @@
             .section-header h2 {
                 font-size: 2rem;
             }
+
+            .contact-section {
+                padding: 4rem 1.5rem;
+            }
+
+            .contact-content h3 {
+                font-size: 1.5rem;
+            }
+
+            .contact-email {
+                padding: 0.8rem 1.8rem;
+                font-size: 0.95rem;
+            }
         }
     </style>
 </head>
@@ -436,6 +509,7 @@
         <ul>
             <li><a href="#intro">Home</a></li>
             <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
@@ -443,11 +517,13 @@
     <section class="hero" id="intro">
         <div class="hero-content">
             <p class="hero-subtitle">Artist Portfolio</p>
-            <h1>Your Name Here</h1>
+            <h1>Nahed Sheikh</h1>
             <div class="hero-divider"></div>
             <p class="hero-text">
-                [Add your introduction here]
-                <arabic>[أضف مقدمة عنك هنا]</arabic>
+                I am Nahed Sheikh, a Bahraini artist exploring emotion through colour, texture, and form. My work moves between the calm of the sea, the depth of textured surfaces, and the character captured in portraiture. Through each piece, I seek to transform moments and impressions into art that feels personal, expressive, and alive.
+                <arabic>
+                    أنا ناهد الشيخ، فنانة بحرينية أستكشف المشاعر من خلال اللون والملمس والتكوين. تتنقل أعمالي بين هدوء البحر، وثراء الخامات البصرية، وتفاصيل الوجوه في فن البورتريه. أسعى من خلال كل عمل إلى تحويل اللحظات والانطباعات إلى أعمال فنية تحمل طابعاً شخصياً وتعبيراً نابضاً بالحياة.
+                </arabic>
             </p>
             <div class="scroll-indicator">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
@@ -578,30 +654,190 @@
                 </p>
             </div>
         </article>
+
+        <!-- Artwork 05 -->
+        <article class="artwork">
+            <div class="artwork-image">
+                <img src="assets/05.jpg" alt="The Weight of Silence">
+            </div>
+            <div class="artwork-info">
+                <p class="artwork-number">05</p>
+                <h3 class="artwork-title">
+                    The Weight of Silence
+                </h3>
+                <p class="artwork-medium">Pencil on Paper</p>
+                <p class="artwork-description">
+                    A study of quiet expression and emotional depth, exploring the relationship between shadow, form, and presence through restrained pencil strokes.
+                    <arabic>
+                        دراسة للتعبير الصامت والعمق العاطفي، تستكشف العلاقة بين الظل والشكل والحضور من خلال خطوط قلم الرصاص الهادئة والمتزنة.
+                    </arabic>
+                </p>
+            </div>
+        </article>
+
+        <!-- Artwork 06 -->
+        <article class="artwork">
+            <div class="artwork-image">
+                <img src="assets/06.jpg" alt="Eyes of the Wild">
+            </div>
+            <div class="artwork-info">
+                <p class="artwork-number">06</p>
+                <h3 class="artwork-title">
+                    Eyes of the Wild
+                </h3>
+                <p class="artwork-medium">Pencil on Paper</p>
+                <p class="artwork-description">
+                    An exploration of texture, movement, and detail, focusing on the intensity of the eye and the organic rhythm of feathers through layered pencil work.
+                    <arabic>
+                        دراسة للملمس والحركة والتفاصيل، تركز على حدة العين والإيقاع العضوي للريش من خلال طبقات متداخلة من قلم الرصاص.
+                    </arabic>
+                </p>
+            </div>
+        </article>
+
+        <!-- Artwork 07 -->
+        <article class="artwork">
+            <div class="artwork-image">
+                <img src="assets/07.jpg" alt="The Voice of a Generation — Mohammed Abdu">
+            </div>
+            <div class="artwork-info">
+                <p class="artwork-number">07</p>
+                <h3 class="artwork-title">
+                    The Voice of a Generation
+                    <arabic>صوت جيل</arabic>
+                </h3>
+                <p class="artwork-medium">Pencil on Paper</p>
+                <p class="artwork-description">
+                    A portrait study capturing the presence and character of Mohammed Abdu, reflecting the quiet confidence and enduring artistic presence associated with one of the most influential voices in Arabic music.
+                    <arabic>
+                        دراسة بورتريه تجسّد حضور وشخصية محمد عبده، وتعكس الهدوء والثقة والحضور الفني الراسخ المرتبط بأحد أبرز الأصوات المؤثرة في الموسيقى العربية.
+                    </arabic>
+                </p>
+            </div>
+        </article>
+
+        <!-- Artwork 08 -->
+        <article class="artwork">
+            <div class="artwork-image">
+                <img src="assets/08.jpg" alt="The Poet's Gaze — Khalid Abdulrahman">
+            </div>
+            <div class="artwork-info">
+                <p class="artwork-number">08</p>
+                <h3 class="artwork-title">
+                    The Poet's Gaze
+                    <arabic>نظرة الشاعر</arabic>
+                </h3>
+                <p class="artwork-medium">Pencil on Paper</p>
+                <p class="artwork-description">
+                    A portrait study inspired by the introspective presence of Khalid Abdulrahman, exploring character and emotion through expressive lines and tonal contrast. His identity as a singer, poet, and composer adds a connection between the visual portrait and the artistic world of poetry and music.
+                    <arabic>
+                        دراسة بورتريه مستوحاة من الحضور التأملي لخالد عبدالرحمن، تستكشف الشخصية والعاطفة من خلال الخطوط التعبيرية والتباين اللوني. ويمنح ارتباطه بالغناء والشعر والتلحين بعدًا فنيًا يجمع بين الصورة وعالمي الشعر والموسيقى.
+                    </arabic>
+                </p>
+            </div>
+        </article>
+
+        <!-- Artwork 09 -->
+        <article class="artwork">
+            <div class="artwork-image">
+                <img src="assets/09.jpg" alt="A Poet's Presence — Khalid Al-Faisal">
+            </div>
+            <div class="artwork-info">
+                <p class="artwork-number">09</p>
+                <h3 class="artwork-title">
+                    A Poet's Presence
+                    <arabic>حضور شاعر</arabic>
+                </h3>
+                <p class="artwork-medium">Pencil on Paper</p>
+                <p class="artwork-description">
+                    A portrait study exploring dignity, expression, and presence through subtle tonal variations. The work reflects the artistic character of Khalid Al-Faisal, whose contributions extend across poetry, literature, and visual art.
+                    <arabic>
+                        دراسة بورتريه تستكشف الوقار والتعبير والحضور من خلال التدرجات اللونية الدقيقة. ويعكس العمل الطابع الفني لخالد الفيصل، الذي امتدت إسهاماته إلى الشعر والأدب والفنون التشكيلية.
+                    </arabic>
+                </p>
+            </div>
+        </article>
+
+        <!-- Artwork 10 -->
+        <article class="artwork">
+            <div class="artwork-image">
+                <img src="assets/10.jpg" alt="The Word Engineer — Badr Bin Abdulmohsen">
+            </div>
+            <div class="artwork-info">
+                <p class="artwork-number">10</p>
+                <h3 class="artwork-title">
+                    The Word Engineer
+                    <arabic>مهندس الكلمة</arabic>
+                </h3>
+                <p class="artwork-medium">Pencil on Paper</p>
+                <p class="artwork-description">
+                    A portrait study of Badr Bin Abdulmohsen, capturing a contemplative presence shaped by a lifelong relationship with poetry and visual art. Known as "The Word Engineer," his artistic legacy bridges literature, music, and visual expression.
+                    <arabic>
+                        دراسة بورتريه لبدر بن عبدالمحسن، تجسّد حضورًا تأمليًا تشكّل من خلال ارتباطه العميق بالشعر والفن التشكيلي. ويعكس العمل إرثه الفني الذي جمع بين الأدب والموسيقى والتعبير البصري، بوصفه أحد أبرز الشعراء والفنانين التشكيليين في المملكة.
+                    </arabic>
+                </p>
+            </div>
+        </article>
+
+        <!-- Artwork 11 -->
+        <article class="artwork">
+            <div class="artwork-image">
+                <img src="assets/11.jpg" alt="In the Moment — Rashed Al Majid">
+            </div>
+            <div class="artwork-info">
+                <p class="artwork-number">11</p>
+                <h3 class="artwork-title">
+                    In the Moment
+                    <arabic>في اللحظة</arabic>
+                </h3>
+                <p class="artwork-medium">Pencil on Paper</p>
+                <p class="artwork-description">
+                    A portrait study capturing Rashed Al Majid within the energy of performance, focusing on gesture, expression, and movement to convey the connection between the artist and the moment.
+                    <arabic>
+                        دراسة بورتريه تلتقط راشد الماجد في لحظة الأداء، مع التركيز على الحركة والتعبير والإيماءة لتجسيد العلاقة بين الفنان ولحظة التفاعل الفني.
+                    </arabic>
+                </p>
+            </div>
+        </article>
     </section>
 
     <!-- Artist's Note -->
     <section class="artist-note">
         <div class="artist-note-content">
             <h3>Artist's Note</h3>
-            <arabic>كلمة الفنانة</arabic>
+            <arabic>ملاحظة الفنانة</arabic>
             <div class="artist-note-divider"></div>
             <p>
-                My work is inspired by the relationship between nature and emotion. I am drawn to subjects that carry a sense of movement, silence, texture, or character, and I use colour and form to translate the feelings they evoke in me.
-                Whether I am painting the sea, building texture, creating flowers, or exploring a subject through drawing, I am less interested in simply reproducing what I see and more interested in capturing what I feel when I look at it.
-                For me, art is a space where observation becomes emotion, and emotion becomes something tangible.
+                My work is rooted in observation, emotion, and the quiet moments that often go unnoticed. I am drawn to creating art that captures a feeling rather than simply an image, using colour, texture, light, and form to express emotion and memory.
+                The sea is a recurring presence in my paintings, inspired by its calmness, movement, and ever-changing character. Through acrylic and mixed-media techniques, I explore serenity, depth, and connection, while experimenting with texture and dimension.
+                Portraiture is another important part of my practice. Through pencil sketches of Arab artists, poets, and cultural figures, I explore expression, character, and the stories carried within a face.
+                Across different mediums, my intention remains the same: to transform what I observe and feel into something tangible, personal, and open to interpretation.
             </p>
             <arabic>
-                تستمد أعمالي الفنية إلهامها من العلاقة بين الطبيعة والمشاعر الإنسانية. أميل إلى الموضوعات التي تحمل في داخلها إحساسًا بالحركة أو السكون أو الملمس أو الشخصية، وأسعى من خلال اللون والشكل إلى ترجمة المشاعر التي تثيرها في داخلي.
-                سواء كنت أرسم البحر، أو أبتكر أعمالًا ذات ملمس بارز، أو أقدّم الزهور، أو أستكشف موضوعًا من خلال الرسم، فإن اهتمامي لا يقتصر على إعادة تصوير ما أراه، بل يمتد إلى محاولة تجسيد ما أشعر به عندما أنظر إليه.
-                بالنسبة لي، الفن هو المساحة التي يتحول فيها التأمل إلى إحساس، ويتحول الإحساس إلى شيء يمكن رؤيته ولمسه.
+                يرتكز عملي الفني على التأمل والإحساس واللحظات الهادئة التي قد تمر دون أن تحظى بالانتباه. أسعى إلى ابتكار أعمال تتجاوز نقل الصورة، لتعبّر عن المشاعر والذكريات من خلال اللون والملمس والضوء والشكل.
+                يحضر البحر بصورة متكررة في لوحاتي، مستوحًى من هدوئه وحركته وتغير ملامحه المستمر. ومن خلال الألوان الأكريليكية والخامات المتنوعة، أستكشف مفاهيم السكينة والعمق والارتباط، مع توظيف الملمس والأبعاد لإضفاء حضور ملموس على المشاعر.
+                كما يشكل فن البورتريه جانبًا مهمًا من تجربتي، حيث تستكشف رسوماتي بالقلم الرصاص ملامح وحضور فنانين وشعراء وشخصيات ثقافية عربية، مع التركيز على التعبير والشخصية وما تحمله الوجوه من قصص.
             </arabic>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact-section" id="contact">
+        <div class="contact-content">
+            <h3>Get in Touch</h3>
+            <arabic>تواصل معي</arabic>
+            <div class="artist-note-divider"></div>
+            <p class="contact-text">
+                For inquiries, commissions, or collaborations, feel free to reach out.
+                <arabic>لأي استفسارات أو طلبات خاصة أو تعاون فني، لا تترددوا في التواصل.</arabic>
+            </p>
+            <a class="contact-email" href="mailto:artnahd@gmail.com">artnahd@gmail.com</a>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>© 2026 — All Rights Reserved</p>
+        <p>© 2026 Nahed Sheikh — All Rights Reserved</p>
     </footer>
 
     <script>
@@ -634,7 +870,7 @@
             });
         }, observerOptions);
 
-        document.querySelectorAll('.artwork, .artist-note-content').forEach(el => {
+        document.querySelectorAll('.artwork, .artist-note-content, .contact-content').forEach(el => {
             el.style.opacity = '0';
             el.style.transform = 'translateY(30px)';
             el.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
